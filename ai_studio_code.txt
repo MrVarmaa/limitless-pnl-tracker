@@ -1,0 +1,28 @@
+limitless-pnl-tracker/
+├── components/
+│   ├── ConnectWalletButton.tsx
+│   ├── Dashboard.tsx
+│   ├── ExportButton.tsx
+│   ├── Header.tsx
+│   ├── HistoryTable.tsx
+│   ├── PnLChart.tsx
+│   ├── StatCard.tsx
+│   ├── WinLossPieChart.tsx
+│   ├── icons/
+│   │   ├── CheckCircleIcon.tsx
+│   │   ├── TrendDownIcon.tsx
+│   │   ├── TrendUpIcon.tsx
+│   │   ├── WalletIcon.tsx
+│   │   └── XCircleIcon.tsx
+├── hooks/
+│   └── useWallet.ts
+├── services/
+│   └── limitlessService.ts
+├── utils/
+│   ├── csvExporter.ts
+│   └── dataProcessor.ts
+├── App.tsx
+├── index.html
+├── index.tsx
+├── metadata.json
+└── types.ts
